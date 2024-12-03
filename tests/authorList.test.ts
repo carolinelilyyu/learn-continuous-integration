@@ -7,7 +7,8 @@ describe('getAuthorList', () => {
     });
 
     it('should fetch and format the authors list correctly', async () => {
-        // Define the sorted authors list as we expect it to be returned by the database
+        // Define the sorted authors list as we expect it to be 
+        //returned by the database
         const sortedAuthors = [
             {
                 first_name: 'Jane',
